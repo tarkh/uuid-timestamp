@@ -1,2 +1,48 @@
 # uuid-timestamp
-UUID based on timestamp
+> UUID v4 based on timestamp
+
+- Valid UUID version 4
+- Built in timestamp in milliseconds
+- Absolute uniqueness within your ecosystem
+- Super easy and fast
+- 999 bytes, 44 lines of code (with comments!)
+
+## Install
+```
+$ npm install json-easy-strip
+```
+
+## Usage
+#### Emitting UUID
+```js
+const { uuidEmit, uuidParse } = require('./index.js');
+const uuid = uuidEmit();
+console.log(`Your new UUID v4 is: ${uuid}`);
+
+// Your new UUID v4 is: 15971692-5987-4442-9890-925987442890
+```
+#### Parsing UUID timestamp
+```js
+const timestamp = uuidParse(uuid);
+console.log(`UUID ${uuid} was created at ${new Date(timestamp).toString()}`);
+
+// UUID 15971692-5987-4442-9890-925987442890 was created at Tue Aug 11 2020 21:07:39 GMT+0300 (Moscow Standard Time)
+```
+
+## API
+### uuidEmit()
+
+#### returns
+Type: `string`  
+The function returns a valid UUID v4.
+
+### uuidParse(uuid)
+#### uuid
+Type: `string`  
+Previously generated UUID.
+
+#### returns
+Type: `number`  
+The function returns a timestamp, parsed from UUID.
+
+## Benchmarks
