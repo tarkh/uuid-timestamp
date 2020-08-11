@@ -5,7 +5,7 @@
 - Built in timestamp in milliseconds
 - Absolute uniqueness within your ecosystem
 - Super easy and fast
-- 940 bytes, 42 lines (40 sloc)
+- 930 bytes, 42 lines (40 sloc)
 
 ## Install
 ```
