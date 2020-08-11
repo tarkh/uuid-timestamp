@@ -5,17 +5,17 @@
 - Built in timestamp in milliseconds
 - Absolute uniqueness within your ecosystem
 - Super easy and fast
-- 999 bytes, 44 lines of code (with comments!)
+- 940 bytes, 42 lines (40 sloc)
 
 ## Install
 ```
-$ npm install json-easy-strip
+$ npm install uuid-timestamp
 ```
 
 ## Usage
 #### Emitting UUID
 ```js
-const { uuidEmit, uuidParse } = require('./index.js');
+const { uuidEmit, uuidParse } = require('uuid-timestamp');
 const uuid = uuidEmit();
 console.log(`Your new UUID v4 is: ${uuid}`);
 
@@ -46,3 +46,4 @@ Type: `number`
 The function returns a timestamp, parsed from UUID.
 
 ## Benchmarks
+A comparative performance test based on discussion thread on [stackoverflow](https://stackoverflow.com/questions/105034/how-to-create-guid-uuid/). You can run the test and see the results on [jsben.ch](https://jsben.ch/bvtX3).
