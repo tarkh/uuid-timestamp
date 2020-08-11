@@ -46,4 +46,4 @@ Type: `number`
 The function returns a timestamp, parsed from UUID.
 
 ## Benchmarks
-A comparative performance test based on discussion thread on [stackoverflow](https://stackoverflow.com/questions/105034/how-to-create-guid-uuid/). You can run the test and see the results on [jsben.ch](https://jsben.ch/bvtX3).
+A comparative performance test based on discussion thread on [stackoverflow](https://stackoverflow.com/questions/105034/how-to-create-guid-uuid/). You can run the test and see the results on [jsben.ch](https://jsben.ch/zNwRY).
