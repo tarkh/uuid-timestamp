@@ -19,7 +19,7 @@ const { uuidEmit, uuidParse } = require('uuid-timestamp');
 const uuid = uuidEmit();
 console.log(`Your new UUID v4 is: ${uuid}`);
 
-// Your new UUID v4 is: 15971692-5987-4442-9890-925987442890
+// Your new UUID v4 is: 15971692-5987-4442-b890-925987442890
 ```
 #### Parsing UUID timestamp
 ```js
