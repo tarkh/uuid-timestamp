@@ -24,9 +24,9 @@ console.log(`Your new UUID v4 is: ${uuid}`);
 #### Parsing UUID timestamp
 ```js
 const timestamp = uuidParse(uuid);
-console.log(`UUID created at ${new Date(timestamp).toString()}`);
+console.log(`UUID created at ${new Date(timestamp).toUTCString()}`);
 
-// UUID created at Tue Aug 11 2020 21:07:39 GMT+0300 (Moscow Standard Time)
+// UUID created at Tue, 11 Aug 2020 21:06:31 GMT
 ```
 
 ## API
