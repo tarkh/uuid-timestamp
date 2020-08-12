@@ -13,7 +13,7 @@ $ npm install uuid-timestamp
 
 ## Usage
 #### Emitting UUID
-Emitt valid UUID v4 with nanosecond timestamp
+Emit valid UUID v4 with nanosecond timestamp
 ```js
 const { uuidEmit } = require('uuid-timestamp');
 const uuid = uuidEmit();
@@ -75,4 +75,4 @@ Type: `BigInt`
 The function returns current nanosecond timestamp from system time and `process.hrtime.bigint()` diff.
 
 ## Benchmarks
-A comparative performance test based on discussion thread on [stackoverflow](https://stackoverflow.com/questions/105034/how-to-create-guid-uuid/). You can run the test and see the results on [jsben.ch](https://jsben.ch/bvtX3) (browser version uses millisecond timestamp instead of nanosecond node version, so there may be some performance fluctuations)
+A comparative performance test based on discussion thread on [stackoverflow](https://stackoverflow.com/questions/105034/how-to-create-guid-uuid/). You can run the test and see the results on [jsben.ch](https://jsben.ch/bvtX3) (browser version uses millisecond timestamp instead of the nanosecond Node.js version, so there may be some performance fluctuations)
