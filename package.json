@@ -20,7 +20,13 @@
     "universally",
     "unique",
     "identifier",
-    "time"
+    "time",
+    "nano",
+    "nanotime",
+    "nanotimestamp",
+    "diff",
+    "bench",
+    "benchmark"
   ],
   "author": "tarkh",
   "license": "ISC",
